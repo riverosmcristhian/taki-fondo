@@ -1,0 +1,176 @@
+{
+  "_nota": "⚠️ ESCUCHAS DE EJEMPLO: TAKI todavía no tiene una app que registre escuchas. Son las mismas de motor/ejemplos/escuchas-ejemplo.json, con fechas dentro del período 2 (abierto el 5-nov-2026 a las 20:21, hora de Bolivia). Lo que sí es real en testnet: las cuentas, los depósitos, el cierre y los cobros.",
+  "contrato": "CA4ZGDERPPN7WRIFUGCWBKRFAZDKDYCEWAKMB2AQXQTBH32XYNYYXMXU",
+  "periodo": 2,
+  "aRepartir": "79000000",
+  "tesoreria": "GDRNNUE5NP6ZRG5J6VDBJF4JKP65RVMNRLMTUZP2KZUYFHKICVSI5UBE",
+  "artistas": [
+    {
+      "id": "art-a",
+      "nombre": "Artista A (taki-artista-a)",
+      "cuenta": "GCDSDYLWOGQ5ROUKGWVZEEFY7PRC236DN5X6KC75SPG5TW44X76Z6G6V"
+    },
+    {
+      "id": "art-b",
+      "nombre": "Artista B (taki-artista-b)",
+      "cuenta": "GCXTZV5224GGDMKS6GBXPGERNZLAFQ7DI2SN3I5FGRYUBVVNPRIX4V3Z"
+    }
+  ],
+  "canciones": [
+    {
+      "id": "a1",
+      "artista": "art-a",
+      "titulo": "Canción a1",
+      "duracion": 210
+    },
+    {
+      "id": "a2",
+      "artista": "art-a",
+      "titulo": "Canción a2",
+      "duracion": 185
+    },
+    {
+      "id": "b1",
+      "artista": "art-b",
+      "titulo": "Canción b1",
+      "duracion": 240
+    },
+    {
+      "id": "b2",
+      "artista": "art-b",
+      "titulo": "Canción b2",
+      "duracion": 200
+    }
+  ],
+  "oyentes": [
+    {
+      "cuenta": "GCWGAH4YKXY24UXJFP3X23JVMQ4QNOSMZ4ZBXAQ7HYYA2AAT35Z7VNPF",
+      "verificado": true
+    },
+    {
+      "cuenta": "GDSS5UNQUW6UPK2QPLGI5XNCWEFXIQWP7LJPVS2VJS5K6MQGPQ4RKVY4",
+      "verificado": true
+    },
+    {
+      "cuenta": "GCDSDYLWOGQ5ROUKGWVZEEFY7PRC236DN5X6KC75SPG5TW44X76Z6G6V",
+      "verificado": true,
+      "artista": "art-a"
+    }
+  ],
+  "escuchas": [
+    {
+      "oyente": "GCWGAH4YKXY24UXJFP3X23JVMQ4QNOSMZ4ZBXAQ7HYYA2AAT35Z7VNPF",
+      "cancion": "a1",
+      "momento": "2026-11-05T22:00:00-04:00",
+      "segundos": 210
+    },
+    {
+      "oyente": "GCWGAH4YKXY24UXJFP3X23JVMQ4QNOSMZ4ZBXAQ7HYYA2AAT35Z7VNPF",
+      "cancion": "a1",
+      "momento": "2026-11-05T22:04:00-04:00",
+      "segundos": 210
+    },
+    {
+      "oyente": "GCWGAH4YKXY24UXJFP3X23JVMQ4QNOSMZ4ZBXAQ7HYYA2AAT35Z7VNPF",
+      "cancion": "b1",
+      "momento": "2026-11-05T22:08:00-04:00",
+      "segundos": 240
+    },
+    {
+      "oyente": "GCWGAH4YKXY24UXJFP3X23JVMQ4QNOSMZ4ZBXAQ7HYYA2AAT35Z7VNPF",
+      "cancion": "a2",
+      "momento": "2026-11-05T22:12:00-04:00",
+      "segundos": 15
+    },
+    {
+      "oyente": "GCWGAH4YKXY24UXJFP3X23JVMQ4QNOSMZ4ZBXAQ7HYYA2AAT35Z7VNPF",
+      "cancion": "b2",
+      "momento": "2026-11-05T22:13:00-04:00",
+      "segundos": 200
+    },
+    {
+      "oyente": "GCWGAH4YKXY24UXJFP3X23JVMQ4QNOSMZ4ZBXAQ7HYYA2AAT35Z7VNPF",
+      "cancion": "a1",
+      "momento": "2026-11-05T22:17:00-04:00",
+      "segundos": 210
+    },
+    {
+      "oyente": "GCWGAH4YKXY24UXJFP3X23JVMQ4QNOSMZ4ZBXAQ7HYYA2AAT35Z7VNPF",
+      "cancion": "b1",
+      "momento": "2026-11-06T09:00:00-04:00",
+      "segundos": 240
+    },
+    {
+      "oyente": "GCWGAH4YKXY24UXJFP3X23JVMQ4QNOSMZ4ZBXAQ7HYYA2AAT35Z7VNPF",
+      "cancion": "b1",
+      "momento": "2026-11-06T09:04:00-04:00",
+      "segundos": 120
+    },
+    {
+      "oyente": "GDSS5UNQUW6UPK2QPLGI5XNCWEFXIQWP7LJPVS2VJS5K6MQGPQ4RKVY4",
+      "cancion": "b1",
+      "momento": "2026-11-05T21:00:00-04:00",
+      "segundos": 240
+    },
+    {
+      "oyente": "GDSS5UNQUW6UPK2QPLGI5XNCWEFXIQWP7LJPVS2VJS5K6MQGPQ4RKVY4",
+      "cancion": "b1",
+      "momento": "2026-11-05T21:04:00-04:00",
+      "segundos": 240
+    },
+    {
+      "oyente": "GDSS5UNQUW6UPK2QPLGI5XNCWEFXIQWP7LJPVS2VJS5K6MQGPQ4RKVY4",
+      "cancion": "b1",
+      "momento": "2026-11-05T21:08:00-04:00",
+      "segundos": 240
+    },
+    {
+      "oyente": "GDSS5UNQUW6UPK2QPLGI5XNCWEFXIQWP7LJPVS2VJS5K6MQGPQ4RKVY4",
+      "cancion": "b1",
+      "momento": "2026-11-05T21:12:00-04:00",
+      "segundos": 240
+    },
+    {
+      "oyente": "GDSS5UNQUW6UPK2QPLGI5XNCWEFXIQWP7LJPVS2VJS5K6MQGPQ4RKVY4",
+      "cancion": "b1",
+      "momento": "2026-11-05T21:16:00-04:00",
+      "segundos": 240
+    },
+    {
+      "oyente": "GDSS5UNQUW6UPK2QPLGI5XNCWEFXIQWP7LJPVS2VJS5K6MQGPQ4RKVY4",
+      "cancion": "b1",
+      "momento": "2026-11-05T21:20:00-04:00",
+      "segundos": 240
+    },
+    {
+      "oyente": "GDSS5UNQUW6UPK2QPLGI5XNCWEFXIQWP7LJPVS2VJS5K6MQGPQ4RKVY4",
+      "cancion": "a2",
+      "momento": "2026-11-05T21:24:00-04:00",
+      "segundos": 185
+    },
+    {
+      "oyente": "GDSS5UNQUW6UPK2QPLGI5XNCWEFXIQWP7LJPVS2VJS5K6MQGPQ4RKVY4",
+      "cancion": "a1",
+      "momento": "2026-11-06T10:00:00-04:00",
+      "segundos": 900
+    },
+    {
+      "oyente": "GCDSDYLWOGQ5ROUKGWVZEEFY7PRC236DN5X6KC75SPG5TW44X76Z6G6V",
+      "cancion": "a1",
+      "momento": "2026-11-05T20:30:00-04:00",
+      "segundos": 210
+    },
+    {
+      "oyente": "GCDSDYLWOGQ5ROUKGWVZEEFY7PRC236DN5X6KC75SPG5TW44X76Z6G6V",
+      "cancion": "b2",
+      "momento": "2026-11-05T20:34:00-04:00",
+      "segundos": 200
+    },
+    {
+      "oyente": "GCDSDYLWOGQ5ROUKGWVZEEFY7PRC236DN5X6KC75SPG5TW44X76Z6G6V",
+      "cancion": "b2",
+      "momento": "2026-11-05T20:38:00-04:00",
+      "segundos": 200
+    }
+  ]
+}

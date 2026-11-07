@@ -1,0 +1,24 @@
+# Espacio de trabajo del contrato TAKI · Fondo común (Soroban / Stellar)
+[workspace]
+resolver = "2"
+members = ["contracts/*"]
+
+[workspace.dependencies]
+soroban-sdk = "29.0.1"
+
+# Perfil de compilación para el .wasm que se despliega.
+# overflow-checks = true: un desborde aritmético corta la transacción en vez de
+# dar un número equivocado.
+[profile.release]
+opt-level = "z"
+overflow-checks = true
+debug = 0
+strip = "symbols"
+debug-assertions = false
+panic = "abort"
+codegen-units = 1
+lto = true
+
+[profile.release-with-logs]
+inherits = "release"
+debug-assertions = true

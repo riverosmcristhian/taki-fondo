@@ -1,0 +1,14 @@
+{
+  "name": "taki-motor-reparto",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Arma la lista del reparto de TAKI y su raíz Merkle (SHA-256) para el contrato taki-fondo",
+  "type": "module",
+  "scripts": {
+    "vectores": "node vectores.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@stellar/stellar-sdk": "17.2.1"
+  }
+}

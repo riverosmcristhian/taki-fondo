@@ -1,0 +1,45 @@
+{
+  "contrato": "CA4ZGDERPPN7WRIFUGCWBKRFAZDKDYCEWAKMB2AQXQTBH32XYNYYXMXU",
+  "periodo": 1,
+  "hash": "sha256",
+  "raiz": "17517a3b4c3c064b2c90966573c076bc579014841713092dd71c6225f9f10c1b",
+  "total": "79000000",
+  "lista": [
+    {
+      "rol": "artista",
+      "cuenta": "GCDSDYLWOGQ5ROUKGWVZEEFY7PRC236DN5X6KC75SPG5TW44X76Z6G6V",
+      "monto": "35000000",
+      "prueba": [
+        "0150e3c91c1e9ecc516691f830c11353cefe9d53446d77e6b05513d2a81b360f",
+        "60386871c2ad60e9b1a46326de758f229725baa998ea5962e4ab7fb8c6bb9f25"
+      ]
+    },
+    {
+      "rol": "artista",
+      "cuenta": "GCXTZV5224GGDMKS6GBXPGERNZLAFQ7DI2SN3I5FGRYUBVVNPRIX4V3Z",
+      "monto": "20000000",
+      "prueba": [
+        "9a1f7e8ddbfc3d24bd6a470d8fd2f170329bca7086f0383787e5ea65cfd4b1c5",
+        "60386871c2ad60e9b1a46326de758f229725baa998ea5962e4ab7fb8c6bb9f25"
+      ]
+    },
+    {
+      "rol": "oyente",
+      "cuenta": "GCWGAH4YKXY24UXJFP3X23JVMQ4QNOSMZ4ZBXAQ7HYYA2AAT35Z7VNPF",
+      "monto": "15000000",
+      "prueba": [
+        "8ffe64a294d257be6c336e13e3517a29490f55246e28b8ab20dee556a4c0c0ed",
+        "c826ebdf10c3ef964457e858e72b4e45c9051c9aa3a07714c3198b0259f39777"
+      ]
+    },
+    {
+      "rol": "oyente",
+      "cuenta": "GDSS5UNQUW6UPK2QPLGI5XNCWEFXIQWP7LJPVS2VJS5K6MQGPQ4RKVY4",
+      "monto": "9000000",
+      "prueba": [
+        "988c9a8828bb1d79d671520ff80766010797d4dc38c4389a1840204c3c69ab21",
+        "c826ebdf10c3ef964457e858e72b4e45c9051c9aa3a07714c3198b0259f39777"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+== estado (firma: taki-admin)
+{"admin":"GANAPJTYCLKDWKAMGYITL4P2M7NBYJJDSOJTMA4ED7KF6OMY4HUM2SA3","comision_bps":2100,"devuelto_abierto":"0","entrado_abierto":"0","pausado":false,"periodo_abierto":2,"tesoreria":"GDRNNUE5NP6ZRG5J6VDBJF4JKP65RVMNRLMTUZP2KZUYFHKICVSI5UBE","token":"CBIELTK6YBZJU5UP2WWQEUCYKLPU6AUNZ2BQ4WWFEIE3USCIHMXQDAMA","tope_bps":2100}
+== depositar --origen taki-anunciante --monto 60000000 --concepto publicidad (firma: taki-anunciante)
+🔗 https://stellar.expert/explorer/testnet/tx/df0e9430be3099e64aad84d85544cb5e31d95efb5f8795008d7d43432c943441
+== depositar --origen taki-aliado --monto 40000000 --concepto aliado (firma: taki-aliado)
+🔗 https://stellar.expert/explorer/testnet/tx/e78df892a3a5d665704c3458d99512cef241dcd5dec950ac5507527535b5aecd
+== calcular_cierre (firma: taki-admin)
+{"a_repartir":"79000000","entrado":"100000000","parte_taki":"21000000","periodo":2}
+== cerrar_periodo --raiz 6ad622c8a2b91fc5ed7c3347331664f85ac19fa518bdaf132414818615218006 --total_reparto 79000000 (firma: taki-admin)
+🔗 https://stellar.expert/explorer/testnet/tx/9c0539b33fee0d67c612dace5fe448c46e3d4b409e2f6d2cc4c844c9711658de
+2
+== cobrar --periodo 2 --cuenta GCXTZV5224GGDMKS6GBXPGERNZLAFQ7DI2SN3I5FGRYUBVVNPRIX4V3Z --monto 32145683 --prueba '["fafc1c2867262b8474c229471f43e857d66d2b60b0ea334ba67fae25d0f48640","97b1faca97cca4cd50c2f54716e5699ba8054e5ac704f60958b745b7564e950f"]' (firma: taki-admin)
+🔗 https://stellar.expert/explorer/testnet/tx/135e10ecbdabfebdfe70cfe86d25bb416dcbcb6a37c7d7fb39313057cd3897ca
+== cobrar --periodo 2 --cuenta GCDSDYLWOGQ5ROUKGWVZEEFY7PRC236DN5X6KC75SPG5TW44X76Z6G6V --monto 19222920 --prueba '["580297c4ad8514ddef801ee5f82b8f7734bde587dfb4038e910ab2e996184048","97b1faca97cca4cd50c2f54716e5699ba8054e5ac704f60958b745b7564e950f"]' (firma: taki-admin)
+🔗 https://stellar.expert/explorer/testnet/tx/02e7d6ec8a6d21dfc65577627d4fd366522e7ebfeaa2078ed86618a239c56e71
+== cobrar --periodo 2 --cuenta GCWGAH4YKXY24UXJFP3X23JVMQ4QNOSMZ4ZBXAQ7HYYA2AAT35Z7VNPF --monto 14187755 --prueba '["fb96373d684bb3d1230bb3fe17ae3fc329fc9e0a6fb98bfb607e921c85d0d6b6","b08d83d410d22b9e4865a9aaf23d77db30535cfe58cd9a46e6738f6e9cb3e66f"]' (firma: taki-admin)
+🔗 https://stellar.expert/explorer/testnet/tx/046426e480ac956dce4a64467b014fc94dd2f6ab6d033473e9a7f35c84dc48d2
+== cobrar --periodo 2 --cuenta GDSS5UNQUW6UPK2QPLGI5XNCWEFXIQWP7LJPVS2VJS5K6MQGPQ4RKVY4 --monto 13443642 --prueba '["ec70cf414507ae8069229589e82c071b7618f8abf43f1275fa642c20a218a694","b08d83d410d22b9e4865a9aaf23d77db30535cfe58cd9a46e6738f6e9cb3e66f"]' (firma: taki-admin)
+🔗 https://stellar.expert/explorer/testnet/tx/55e45ad7b386ca253a0bb33395fb61d0debee8d3e0008667895c4284772696e4
+== periodo --periodo 2 (firma: taki-admin)
+{"a_repartir":"79000000","cerrado_en":1793982481,"cobrado":"79000000","de_periodos_anteriores":"0","devuelto_al_fondo":false,"entrado":"100000000","parte_taki":"21000000","raiz":"6ad622c8a2b91fc5ed7c3347331664f85ac19fa518bdaf132414818615218006"}

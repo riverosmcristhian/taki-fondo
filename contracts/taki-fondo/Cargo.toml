@@ -1,0 +1,17 @@
+[package]
+name = "taki-fondo"
+version = "0.1.0"
+edition = "2021"
+publish = false
+description = "TAKI: fondo común que se reparte entre artistas y oyentes, con el tope de TAKI escrito en el contrato"
+license = "MIT"
+
+[lib]
+crate-type = ["lib", "cdylib"]
+doctest = false
+
+[dependencies]
+soroban-sdk = { workspace = true }
+
+[dev-dependencies]
+soroban-sdk = { workspace = true, features = ["testutils"] }

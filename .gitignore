@@ -1,0 +1,12 @@
+# Compilación
+target/
+test_snapshots/
+
+# Motor de reparto
+motor/node_modules/
+
+# Llaves y configuración local de Stellar CLI: NUNCA se suben
+.stellar/
+.env
+*-keypair.json
+claves.txt

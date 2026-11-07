@@ -1,0 +1,48 @@
+{
+  "contrato": "CA4ZGDERPPN7WRIFUGCWBKRFAZDKDYCEWAKMB2AQXQTBH32XYNYYXMXU",
+  "periodo": 2,
+  "reparto": {
+    "formula": "60 % artistas y 40 % oyentes, en proporción a los segundos válidos de escucha",
+    "reglas": {
+      "artistasBps": 6000,
+      "segundosMinimos": 30,
+      "conteosPorCancionDia": 4,
+      "segundosPorOyenteDia": 14400,
+      "soloVerificados": true
+    },
+    "aRepartir": "79000000",
+    "bolsaArtistas": "47400000",
+    "bolsaOyentes": "31600000",
+    "segundosValidos": 3185
+  },
+  "lista": [
+    {
+      "rol": "artista",
+      "cuenta": "GCXTZV5224GGDMKS6GBXPGERNZLAFQ7DI2SN3I5FGRYUBVVNPRIX4V3Z",
+      "monto": "32145683",
+      "segundosArtista": 2160,
+      "segundosOyente": 0
+    },
+    {
+      "rol": "artista y oyente",
+      "cuenta": "GCDSDYLWOGQ5ROUKGWVZEEFY7PRC236DN5X6KC75SPG5TW44X76Z6G6V",
+      "monto": "19222920",
+      "segundosArtista": 1025,
+      "segundosOyente": 400
+    },
+    {
+      "rol": "oyente",
+      "cuenta": "GCWGAH4YKXY24UXJFP3X23JVMQ4QNOSMZ4ZBXAQ7HYYA2AAT35Z7VNPF",
+      "monto": "14187755",
+      "segundosArtista": 0,
+      "segundosOyente": 1430
+    },
+    {
+      "rol": "oyente",
+      "cuenta": "GDSS5UNQUW6UPK2QPLGI5XNCWEFXIQWP7LJPVS2VJS5K6MQGPQ4RKVY4",
+      "monto": "13443642",
+      "segundosArtista": 0,
+      "segundosOyente": 1355
+    }
+  ]
+}
